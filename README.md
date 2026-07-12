@@ -6,7 +6,7 @@
 
 ---
 
-### 🙋‍♀️ About Me
+### 🙋‍♂️ About Me
 
 - 🎓 Computer Science student passionate about **AI/ML** and **Web Development**
 - 🌱 Currently exploring **Machine Learning**, **Deep Learning**, and **React**
@@ -55,12 +55,12 @@
 
 ---
 
-### 🌱 Currently Learning python
-kavya = {
-“currently_learning”: [“Deep Learning”, “React Hooks”, “REST APIs”],
-“building”: [“ML projects”, “Full-stack web apps”],
-“goal_2026”: “Land my first dev role & contribute to open source”
-}
+### 🌱 Currently Learning
+
+- 🧠 **Deep Learning** & Machine Learning
+- ⚛️ **React Hooks** & modern JavaScript
+- 🌐 **REST APIs** & backend development
+- 🎯 **Goal 2026:** Land my first dev role & contribute to open source
 ---
 
 ### 📫 Let's Connect
