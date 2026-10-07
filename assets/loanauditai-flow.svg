@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="1000" height="230" role="img" aria-labelledby="t d">
+  <title id="t">How LoanAuditAI works</title>
+  <desc id="d">A loan statement PDF is parsed, its interest is recalculated by a rule engine based on RBI guidelines, and discrepancies are shown in a React dashboard. A Node.js and Express API with authentication is in progress.</desc>
+  <style>
+    :root { --bg:#fbfaf6; --card:#ffffff; --ink:#1d1d1b; --muted:#6b6a64; --line:#d9d5ca; --accent:#c2410c; --soft:#fff4ec; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0f1115; --card:#161a21; --ink:#ecebe6; --muted:#9a9a93; --line:#323844; --accent:#fb923c; --soft:#2a1d14; }
+    }
+    .bg { fill: var(--bg); stroke: var(--line); }
+    .card { fill: var(--card); stroke: var(--line); }
+    .key { fill: var(--soft); stroke: var(--accent); }
+    .ink { fill: var(--ink); }
+    .muted { fill: var(--muted); }
+    .accent { fill: var(--accent); }
+    .arrow { stroke: var(--muted); fill: none; }
+    .dash { fill: none; stroke: var(--line); stroke-dasharray: 6 5; }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+  </style>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8982"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" x="0.5" y="0.5" width="999" height="229" rx="14"/>
+
+  <!-- step boxes -->
+  <g class="sans">
+    <rect class="card" x="32" y="40" width="196" height="96" rx="10"/>
+    <text class="mono muted" x="50" y="64" font-size="11" letter-spacing="1">01 · INPUT</text>
+    <text class="ink" x="50" y="92" font-size="17" font-weight="600">Loan statement</text>
+    <text class="muted" x="50" y="116" font-size="14">PDF from the lender</text>
+
+    <rect class="card" x="272" y="40" width="196" height="96" rx="10"/>
+    <text class="mono muted" x="290" y="64" font-size="11" letter-spacing="1">02 · EXTRACT</text>
+    <text class="ink" x="290" y="92" font-size="17" font-weight="600">PDF parsing</text>
+    <text class="muted" x="290" y="116" font-size="14">Python · rows to data</text>
+
+    <rect class="key" x="512" y="40" width="216" height="96" rx="10" stroke-width="1.5"/>
+    <text class="mono accent" x="530" y="64" font-size="11" letter-spacing="1">03 · VERIFY</text>
+    <text class="ink" x="530" y="92" font-size="17" font-weight="600">Interest engine</text>
+    <text class="muted" x="530" y="116" font-size="14">Python · RBI-based rules</text>
+
+    <rect class="card" x="772" y="40" width="196" height="96" rx="10"/>
+    <text class="mono muted" x="790" y="64" font-size="11" letter-spacing="1">04 · REPORT</text>
+    <text class="ink" x="790" y="92" font-size="17" font-weight="600">Discrepancies</text>
+    <text class="muted" x="790" y="116" font-size="14">React dashboard</text>
+  </g>
+
+  <!-- arrows -->
+  <g class="arrow" stroke-width="1.6" marker-end="url(#ah)">
+    <line x1="232" y1="88" x2="266" y2="88"/>
+    <line x1="472" y1="88" x2="506" y2="88"/>
+    <line x1="732" y1="88" x2="766" y2="88"/>
+  </g>
+
+  <!-- backend in progress -->
+  <rect class="dash" x="32" y="162" width="936" height="40" rx="8" stroke-width="1.4"/>
+  <text class="mono muted" x="52" y="187" font-size="13">in progress →</text>
+  <text class="sans ink" x="170" y="187" font-size="14.5">Node.js + Express backend · REST APIs · authentication</text>
+</svg>
