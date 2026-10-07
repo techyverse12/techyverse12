@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-labelledby="t d">
+  <title id="t">Kavya Goyal</title>
+  <desc id="d">Full-stack developer (backend-focused) and founder of LoanAuditAI, a tool that audits loan statements for interest overcharges.</desc>
+  <style>
+    :root { --bg:#fbfaf6; --card:#ffffff; --ink:#1d1d1b; --muted:#6b6a64; --line:#e4e1d8; --accent:#c2410c; --good:#15803d; --bad:#b91c1c; --hl:#fef3c7; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg:#0f1115; --card:#161a21; --ink:#ecebe6; --muted:#9a9a93; --line:#2a2f38; --accent:#fb923c; --good:#4ade80; --bad:#f87171; --hl:#3a2f12; }
+    }
+    .bg { fill: var(--bg); stroke: var(--line); }
+    .card { fill: var(--card); stroke: var(--line); }
+    .ink { fill: var(--ink); }
+    .muted { fill: var(--muted); }
+    .accent { fill: var(--accent); }
+    .good { fill: var(--good); }
+    .bad { fill: var(--bad); }
+    .rule { stroke: var(--line); }
+    .hl { fill: var(--hl); }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", monospace; }
+  </style>
+
+  <rect class="bg" x="0.5" y="0.5" width="999" height="259" rx="14"/>
+
+  <!-- left: identity -->
+  <text class="mono muted" x="48" y="58" font-size="15">$ whoami</text>
+  <text class="sans ink" x="46" y="112" font-size="50" font-weight="700" letter-spacing="-1">Kavya Goyal</text>
+  <rect class="accent" x="48" y="127" width="44" height="4" rx="2"/>
+  <text class="sans ink" x="48" y="163" font-size="20">Full-stack developer <tspan class="muted">(backend-focused)</tspan></text>
+  <text class="sans ink" x="48" y="190" font-size="18">Founder of LoanAuditAI</text>
+  <text class="sans muted" x="48" y="216" font-size="15">CSE @ Chandigarh University · Chandigarh, India</text>
+  <text class="mono muted" x="48" y="240" font-size="13">c++ · node.js · express · mysql · react · python</text>
+
+  <!-- right: an audited loan statement -->
+  <rect class="card" x="628" y="34" width="330" height="192" rx="10"/>
+  <text class="mono muted" x="650" y="60" font-size="11" letter-spacing="1.5">LOAN STATEMENT · AUDIT</text>
+  <line class="rule" x1="650" y1="72" x2="936" y2="72" stroke-width="1"/>
+
+  <g class="mono" font-size="13">
+    <text class="muted" x="650" y="96">EMI 04</text>
+    <text class="ink" x="860" y="96" text-anchor="end">₹12,480</text>
+    <text class="good" x="926" y="96" text-anchor="middle">✓</text>
+
+    <text class="muted" x="650" y="122">EMI 05</text>
+    <text class="ink" x="860" y="122" text-anchor="end">₹12,480</text>
+    <text class="good" x="926" y="122" text-anchor="middle">✓</text>
+
+    <rect class="hl" x="642" y="132" width="302" height="26" rx="5"/>
+    <text class="ink" x="650" y="150">Interest</text>
+    <text class="bad" x="788" y="150" text-anchor="end">₹3,912</text>
+    <line x1="738" y1="146" x2="790" y2="146" stroke="var(--bad)" stroke-width="1.5"/>
+    <text class="muted" x="804" y="150" text-anchor="middle">→</text>
+    <text class="good" x="874" y="150" text-anchor="end" font-weight="700">₹3,407</text>
+    <text class="bad" x="926" y="150" text-anchor="middle" font-weight="700">!</text>
+
+    <text class="muted" x="650" y="182">EMI 06</text>
+    <text class="ink" x="860" y="182" text-anchor="end">₹12,480</text>
+    <text class="good" x="926" y="182" text-anchor="middle">✓</text>
+  </g>
+  <line class="rule" x1="650" y1="196" x2="936" y2="196" stroke-width="1"/>
+  <text class="mono accent" x="650" y="214" font-size="11.5">1 discrepancy flagged · RBI rules</text>
+</svg>
