@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 260" width="1000" height="260" role="img" aria-labelledby="t d">
   <title id="t">Kavya Goyal</title>
-  <desc id="d">Backend developer and founder of LoanAuditAI, a tool that audits loan statements for interest overcharges.</desc>
+  <desc id="d">Full-stack developer (backend-focused) and founder of LoanAuditAI, a tool that audits loan statements for interest overcharges.</desc>
   <style>
     :root { --bg:#fbfaf6; --card:#ffffff; --ink:#1d1d1b; --muted:#6b6a64; --line:#e4e1d8; --accent:#c2410c; --good:#15803d; --bad:#b91c1c; --hl:#fef3c7; }
     @media (prefers-color-scheme: dark) {
@@ -22,12 +22,13 @@
   <rect class="bg" x="0.5" y="0.5" width="999" height="259" rx="14"/>
 
   <!-- left: identity -->
-  <text class="mono muted" x="48" y="66" font-size="15">$ whoami</text>
-  <text class="sans ink" x="46" y="122" font-size="50" font-weight="700" letter-spacing="-1">Kavya Goyal</text>
-  <rect class="accent" x="48" y="138" width="44" height="4" rx="2"/>
-  <text class="sans ink" x="48" y="174" font-size="20">Backend developer · Founder of LoanAuditAI</text>
-  <text class="sans muted" x="48" y="202" font-size="16">CSE @ Chandigarh University · Chandigarh, India</text>
-  <text class="mono muted" x="48" y="232" font-size="13">c++ · node.js · express · mysql · react · python</text>
+  <text class="mono muted" x="48" y="58" font-size="15">$ whoami</text>
+  <text class="sans ink" x="46" y="112" font-size="50" font-weight="700" letter-spacing="-1">Kavya Goyal</text>
+  <rect class="accent" x="48" y="127" width="44" height="4" rx="2"/>
+  <text class="sans ink" x="48" y="163" font-size="20">Full-stack developer <tspan class="muted">(backend-focused)</tspan></text>
+  <text class="sans ink" x="48" y="190" font-size="18">Founder of LoanAuditAI</text>
+  <text class="sans muted" x="48" y="216" font-size="15">CSE @ Chandigarh University · Chandigarh, India</text>
+  <text class="mono muted" x="48" y="240" font-size="13">c++ · node.js · express · mysql · react · python</text>
 
   <!-- right: an audited loan statement -->
   <rect class="card" x="628" y="34" width="330" height="192" rx="10"/>
