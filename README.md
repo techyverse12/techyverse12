@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Kavya Goyal: backend developer and founder of LoanAuditAI" width="100%"/>
+  <img src="./assets/header.svg" alt="Kavya Goyal: full-stack developer (backend-focused) and founder of LoanAuditAI" width="100%"/>
 </p>
 
 I build software around real problems. LoanAuditAI started with a loan statement that didn't add up: after digging into it we found and recovered ₹30,798 in excess charges. The hard part wasn't spotting the wrong number. It was understanding why it happened and proving the calculation. That's the kind of work I enjoy: backend logic that has to be correct.
@@ -9,7 +9,7 @@ I build software around real problems. LoanAuditAI started with a loan statement
 - Building the Node.js + Express backend for **LoanAuditAI**: REST APIs and authentication
 - Practising DSA in C++ every week, 300+ problems solved so far ([LeetCode](https://leetcode.com/u/Kavaygoyal493/))
 - Going deeper into databases, operating systems, computer networks and system design
-- Looking for **Software Engineering / Backend internships**
+- Looking for **Software Engineering internships** (full-stack or backend)
 
 ---
 
